@@ -1,0 +1,37 @@
+{
+  "id": "uber_pitch_deck_2008",
+  "title": "UberCab — original pre-seed pitch deck, 2008",
+  "medium": "static slide deck — NOT a recorded/spoken pitch",
+  "note_on_medium": "Like the Airbnb deck, no recording of the actual investor-room delivery exists. The original ran roughly 25 slides; grouped here into 16 sections for readability, following the full slide-by-slide order confirmed via TechCrunch's 2023 teardown (see sources).",
+  "sources": [
+    "https://techcrunch.com/2023/02/23/sample-pre-seed-pitch-deck-uber-2008/",
+    "https://www.failory.com/pitch-deck/uber"
+  ],
+  "verified_facts": {
+    "year": 2008,
+    "founders": ["Travis Kalanick", "Garrett Camp"],
+    "raised": "$200,000 pre-seed",
+    "context": "Pitched while the company was still called UberCab, before the app existed — a digital-hailing black-car service, years before rideshare drivers or the Uber name.",
+    "cover_tagline": "1-Click Car Service",
+    "slide_count_note": "The original deck ran ~25 slides; grouped here into 16 sections. Full slide-by-slide order verified via TechCrunch's 2023 teardown."
+  },
+  "slides": [
+    { "slide": "Cover", "rubric_dims": [], "dominant_appeal": "ethos", "note": "Title page under the UberCab name — no tagline-driven hook, just the company presenting itself." },
+    { "slide": "Cabs in 2008 (Problem)", "rubric_dims": ["problem_fit"], "dominant_appeal": "pathos", "note": "Frames aging fleets and unreliable street-hailing as a daily frustration for urban professionals — the deck's one clearly Pathos-led moment." },
+    { "slide": "Digital Hail Solution / UberCab Concept", "rubric_dims": ["problem_fit", "tech"], "dominant_appeal": "logos", "note": "Mechanism-first: replace street hailing with app-based digital hailing." },
+    { "slide": "Product Walkthrough (1-Click, Differentiators, Operating Principles, Apps, Website)", "rubric_dims": ["tech"], "dominant_appeal": "logos", "note": "Five consecutive slides making one sustained Logos argument: the product is thought through end to end." },
+    { "slide": "Use Cases", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Restaurants, bars, shows, airports — concrete scenarios that double as indirect demand validation." },
+    { "slide": "User Benefits", "rubric_dims": ["problem_fit"], "dominant_appeal": "pathos", "note": "Convenience-focused, but still argued benefit-by-benefit rather than through a single emotional story." },
+    { "slide": "Environmental Benefits", "rubric_dims": ["impact_evidence"], "dominant_appeal": "pathos", "note": "The deck's only nod toward 'evidence of impact' — an asserted sustainability benefit, not a measured one." },
+    { "slide": "Fleet & Service Area", "rubric_dims": ["tech", "scale_sustainability"], "dominant_appeal": "logos", "note": "Mercedes S-class fleet spec and initial launch geography." },
+    { "slide": "Technology & Demand Forecasting", "rubric_dims": ["tech"], "dominant_appeal": "logos", "note": "Predictive dispatch positioned as a durable technical moat." },
+    { "slide": "Market Sizing", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "The $4.2B U.S. taxi-and-limousine market, sized and segmented — pure Logos." },
+    { "slide": "Target Cities", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Expansion sequencing across priority metros." },
+    { "slide": "Potential Outcomes", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "A named best-case ($1B/yr revenue) against a realistic case ($20-30M/yr profit) — an aggressive claim still argued in numbers." },
+    { "slide": "Smartphone Adoption (\"Why Now\")", "rubric_dims": ["scale_sustainability", "tech"], "dominant_appeal": "logos", "note": "BlackBerry 32% / Windows Mobile 30% / iPhone 10% — a timing argument built entirely on adoption data." },
+    { "slide": "Future Optimizations & Marketing Ideas", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Roadmap and go-to-market ideas, still numbers- and plan-first." },
+    { "slide": "Adjacent Market: Location-Based Delivery", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "A $3.5B-by-2010 delivery-market aside, extending the sizing argument beyond rides." },
+    { "slide": "Progress to Date", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "ethos", "note": "Reserved domain, filed provisional patent, bank/PayPal accounts, 15 signed clients, 3 purchased vehicles — proof of execution, not a story. Notably: this deck has no dedicated team-bio slide at all." }
+  ],
+  "summary": "UberCab's earliest deck is almost entirely Logos, start to finish, with two brief Pathos beats (the problem framing and the environmental-benefits aside) and no Ethos until the very last slide's traction proof. Unlike Airbnb, it has no team slide whatsoever — the pitch bets everything on the strength of the market-sizing and 'why now' argument, not on founder credibility. Evidence of Impact barely registers here either, appearing only as an aside — a pattern this project also found in the general VC-deck corpus, not just Airbnb."
+}

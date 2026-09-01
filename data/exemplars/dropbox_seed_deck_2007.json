@@ -1,0 +1,31 @@
+{
+  "id": "dropbox_seed_deck_2007",
+  "title": "Dropbox — original seed pitch deck, 2007",
+  "medium": "static slide deck — NOT a recorded/spoken pitch",
+  "note_on_medium": "No recording of the Y Combinator demo-day delivery exists. Sources disagree on exact slide count (commonly cited as 17; a separately-circulated redesigned template runs to 24) — this analysis follows the 9 core beats corroborated across multiple independent teardowns (see sources).",
+  "sources": [
+    "https://www.slideteam.net/blog/dropbox-pitch-deck",
+    "https://www.beautiful.ai/blog/powerpoint-makeovers-the-dropbox-pitch-deck",
+    "https://www.slideshare.net/slideshow/dropboxs-original-pitch-deck/251815932"
+  ],
+  "verified_facts": {
+    "year": 2007,
+    "founders": ["Drew Houston", "Arash Ferdowsi"],
+    "raised": "$1.2 million seed round led by Sequoia Capital",
+    "context": "Presented at Y Combinator Summer 2007 demo day; the deck was later shared publicly by Sequoia Capital itself.",
+    "cover_tagline": "Storage is a mess.",
+    "slide_count_note": "Commonly cited as 17 slides; grouped here into 9 core beats corroborated across independent teardowns rather than a full slide-by-slide reconstruction."
+  },
+  "slides": [
+    { "slide": "Cover", "rubric_dims": [], "dominant_appeal": "ethos", "note": "Brand-first title slide." },
+    { "slide": "Table of Contents", "rubric_dims": [], "dominant_appeal": "ethos", "note": "A structured agenda up front — a small, procedural credibility signal (this founder has a plan)." },
+    { "slide": "Problem: \"Storage is a mess\"", "rubric_dims": ["problem_fit"], "dominant_appeal": "pathos", "note": "Four words, one image, then four concrete reasons (multiple computers, team sharing, photos/videos online, USB drives as a stopgap). About as Pathos-led as a technical product slide gets." },
+    { "slide": "Solution: \"It just works\"", "rubric_dims": ["problem_fit", "tech"], "dominant_appeal": "logos", "note": "One of the most quoted lines in pitch-deck history — but the slide itself argues reliability and mechanism, not feeling." },
+    { "slide": "Product Demo (\"Why Now\")", "rubric_dims": ["tech"], "dominant_appeal": "logos", "note": "Walks the actual product experience rather than describing it abstractly." },
+    { "slide": "Competitive Analysis (\"Why Our Competitors Screw Up\")", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Named competitors, checkmarks and X's — a direct, evidence-style comparison." },
+    { "slide": "Business Model", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Three revenue segments (individual freemium, SMB licensing, desktop-to-web) laid out as mechanics, not vision." },
+    { "slide": "Go-to-Market Strategy", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Free-account acquisition and viral growth strategy, still numbers-first." },
+    { "slide": "Closing: \"#1 Among Summer YC Startups\"", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "ethos", "note": "Closes on peer-ranked social proof rather than a founder-bio slide — credibility borrowed from a cohort standing, not from personal history. Like Uber's deck, there is no dedicated team slide." }
+  ],
+  "summary": "Dropbox's deck opens on the sharpest Pathos hook of any deck in this set ('Storage is a mess') and then, like every other deck here, spends the rest of its runtime almost entirely in Logos — competitive comparison, business model, go-to-market. It closes on Ethos through borrowed social proof (a YC cohort ranking) rather than a team-credentials slide, meaning two of these four historical decks (Dropbox and Uber) skip a dedicated Team slide entirely. Evidence of Impact never appears — unsurprising for a productivity tool with no social-outcome claim to make."
+}

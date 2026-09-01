@@ -1,0 +1,100 @@
+[
+  {
+    "start": 2.4,
+    "end": 49.01,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.85
+  },
+  {
+    "start": 49.01,
+    "end": 96.35,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 96.35,
+    "end": 141.53,
+    "rubric_dims": ["problem_fit", "tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 141.53,
+    "end": 187.85,
+    "rubric_dims": ["tech", "impact_evidence", "team"],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 187.85,
+    "end": 235.79,
+    "rubric_dims": ["team", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 235.79,
+    "end": 281.03,
+    "rubric_dims": [],
+    "dominant_appeal": "ethos",
+    "confidence": 0.4
+  },
+  {
+    "start": 281.03,
+    "end": 327.29,
+    "rubric_dims": ["tech", "problem_fit"],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 327.29,
+    "end": 374.45,
+    "rubric_dims": ["tech", "impact_evidence"],
+    "dominant_appeal": "ethos",
+    "confidence": 0.55
+  },
+  {
+    "start": 374.45,
+    "end": 422.45,
+    "rubric_dims": ["impact_evidence", "tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 422.45,
+    "end": 469.55,
+    "rubric_dims": ["tech", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  },
+  {
+    "start": 469.55,
+    "end": 516.3,
+    "rubric_dims": ["tech", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.65
+  },
+  {
+    "start": 516.3,
+    "end": 563.27,
+    "rubric_dims": ["impact_evidence", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  },
+  {
+    "start": 563.27,
+    "end": 608.95,
+    "rubric_dims": ["impact_evidence", "tech", "problem_fit"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.7
+  },
+  {
+    "start": 608.95,
+    "end": 614.17,
+    "rubric_dims": [],
+    "dominant_appeal": "ethos",
+    "confidence": 0.3
+  }
+]

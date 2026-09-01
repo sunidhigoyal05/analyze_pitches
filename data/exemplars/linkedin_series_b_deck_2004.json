@@ -1,0 +1,38 @@
+{
+  "id": "linkedin_series_b_deck_2004",
+  "title": "LinkedIn — Series B pitch deck to Greylock, 2004",
+  "medium": "static slide deck — NOT a recorded/spoken pitch",
+  "note_on_medium": "Reid Hoffman published this deck himself in 2013 along with his own slide-by-slide retrospective commentary — the richest primary source of any deck in this set. The original ran 38 slides plus a 5-slide appendix, unusually long and narrative-heavy by modern standards; grouped here into 17 sections for readability.",
+  "sources": [
+    "https://www.reidhoffman.org/linkedin-pitch-to-greylock/",
+    "https://www.alexanderjarvis.com/linkedin-series-b-pitch-deck/"
+  ],
+  "verified_facts": {
+    "year": 2004,
+    "presenter": "Reid Hoffman",
+    "raised": "$10,000,000 Series B from Greylock Partners",
+    "context": "LinkedIn was about a year old and pre-revenue, with under 1 million users versus Friendster's 10.5 million and MySpace's 2.5 million at the time — this is a Series B, not a seed pitch, and it shows: it argues from a full year of Series A execution, not just a concept.",
+    "cover_tagline": "Find and contact the people you need through the people you already trust.",
+    "slide_count_note": "38 slides plus a 5-slide appendix, grouped here into 17 sections. Reid Hoffman's own slide-by-slide commentary is public at reidhoffman.org."
+  },
+  "slides": [
+    { "slide": "Investment Thesis (opening)", "rubric_dims": [], "dominant_appeal": "logos", "note": "Opens with three explicit questions investors must answer yes to — argument structure first, no hook." },
+    { "slide": "Revenue Streams (preview)", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Three product lines previewed early, with an honest acknowledgment of uncertainty about which would lead." },
+    { "slide": "The Problem: \"Professional People Search 1.0\"", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Names three business problems and explains structurally why existing solutions fail (adverse selection, weak reputation systems) — logic, not a personal story." },
+    { "slide": "Core Concept: Networks as \"People Search 2.0\"", "rubric_dims": ["problem_fit", "tech"], "dominant_appeal": "logos", "note": "The foundational thesis: networks, not directories, solve the problem." },
+    { "slide": "Proof by Analogy: eBay, PayPal, Google", "rubric_dims": ["tech"], "dominant_appeal": "logos", "note": "Three consecutive slides arguing the same thesis by borrowed precedent. Hoffman's own retrospective calls this stretch 'one of the strongest parts of the presentation' — Logos through analogy, not through LinkedIn's own data." },
+    { "slide": "LinkedIn as a Network Play", "rubric_dims": ["problem_fit", "tech"], "dominant_appeal": "logos", "note": "Positions against Monster and LexisNexis using the same network-effect logic just established." },
+    { "slide": "Series A vs. Series B Performance", "rubric_dims": ["impact_evidence", "scale_sustainability"], "dominant_appeal": "logos", "note": "Honestly shows LinkedIn trailing both Friendster and MySpace on raw user count, then argues why trajectory still supports leadership — Logos even when the number itself isn't flattering." },
+    { "slide": "Competitive Positioning", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Splits competitors into social (Friendster, MySpace, Orkut) versus professional (Ryze, OpenBC, Spoke, ZeroDegrees)." },
+    { "slide": "Customer Validation", "rubric_dims": ["team", "impact_evidence"], "dominant_appeal": "ethos", "note": "Organizational endorsements — which Hoffman himself later called 'mostly a mistake slide,' a rare founder's own verdict on an Ethos move that didn't land." },
+    { "slide": "Business Development", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Hoffman hedges here: he later admits neither showcased partnership 'delivered substantive value.'" },
+    { "slide": "Viral Growth & Network Effects", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Asserts viral dynamics without over-explaining — Hoffman calls virality 'a pretty deep secret in the industry at the time.'" },
+    { "slide": "Revenue Model: Network-Enabled", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Three slides reinforcing 'build the network first, monetize on top,' using eBay/PayPal/Google as monetization precedent." },
+    { "slide": "Total Addressable Market", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Hoffman's own advice in hindsight: don't linger on TAM slides — they signal you don't understand the business bottom-up." },
+    { "slide": "Product Roadmap: InLeads, Job Listings, Subscriptions", "rubric_dims": ["tech", "scale_sustainability"], "dominant_appeal": "logos", "note": "Six slides of concrete product mockups and launch dates — 'show, don't tell,' per Hoffman, though he flags the customer-quote slide here as weak execution of that principle." },
+    { "slide": "Financial & Profitability Projections", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Hoffman notes the prior round's projections proved 'approximately accurate' — an unusually strong credibility claim delivered entirely through numbers." },
+    { "slide": "Team Credentials", "rubric_dims": ["team"], "dominant_appeal": "ethos", "note": "Names each leader's specific domain expertise (ops scale, social-space experience, technical depth, product-market fit, generalist capability) rather than generic bios." },
+    { "slide": "Investors, Capital Deployment & Closing Ask", "rubric_dims": ["team", "scale_sustainability"], "dominant_appeal": "ethos", "note": "Closes on Sequoia's name, prior capital well spent, and a reprised opening thesis — which Hoffman later critiques as a missed chance to unify the deck's frame." }
+  ],
+  "summary": "The most purely Logos-driven deck in this set — Pathos never clearly surfaces once across all 38 slides. It argues almost entirely by borrowed analogy (eBay, PayPal, Google), honest trend-lines, and mechanism, saving Ethos for exactly two moments: the Team slide and the closing Investors/ask slide, both near the end — the same structural position as the 'Team' close in every other deck studied here, including the real judged pitches. Being a Series B rather than a seed pitch, it also argues from a year of Series A execution instead of pure concept, which is likely why it can afford to be almost entirely evidence-driven."
+}

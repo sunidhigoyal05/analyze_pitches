@@ -1,0 +1,145 @@
+[
+  {
+    "id": "hult_2025_stickem",
+    "title": "Stick 'Em \u2014 Hult Prize 2025 Global Finals",
+    "youtube_url": "https://www.youtube.com/watch?v=f2KVVpZHpNE",
+    "competition": "Hult Prize 2025 Global Finals",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "winner",
+    "outcome_detail": "Winner, $1,000,000 prize",
+    "rubric_source": "https://www.hultprize.org/how-it-works/selection-process-criteria"
+  },
+  {
+    "id": "hult_2016_buupass",
+    "title": "BuuPass (formerly Magic Bus) \u2014 Hult Prize 2016 Global Finals",
+    "youtube_url": "https://www.youtube.com/watch?v=XvJzjnpqMSk",
+    "competition": "Hult Prize 2016 Global Finals",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "winner",
+    "outcome_detail": "Winner, $1,000,000 prize",
+    "rubric_source": "https://www.hultprize.org/how-it-works/selection-process-criteria"
+  },
+  {
+    "id": "mit_solve_2023_finalist_2",
+    "title": "MIT Solve \u2014 2023 Horizon Prize Pitch Competition, Finalist 2",
+    "youtube_url": "https://www.youtube.com/watch?v=j_3UjPYk2Qg",
+    "competition": "MIT Solve / Horizon Prize 2023 (Concordia Annual Summit)",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "finalist_unmapped",
+    "outcome_detail": "One of five 2023 Horizon Prize finalists (Vula Mobile, Mendelian, Seaweedtama Biopac Indonesia, Agrotech Plus/Change Your Box, Pendulum Systems) \u2014 video-to-org mapping unconfirmed",
+    "rubric_source": "https://solve.mit.edu/challenges/circular-economy/judging"
+  },
+  {
+    "id": "mit_solve_2023_finalist_3",
+    "title": "MIT Solve \u2014 2023 Horizon Prize Pitch Competition, Finalist 3",
+    "youtube_url": "https://www.youtube.com/watch?v=hgsywwqjSxI",
+    "competition": "MIT Solve / Horizon Prize 2023 (Concordia Annual Summit)",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "finalist_unmapped",
+    "outcome_detail": "One of five 2023 Horizon Prize finalists \u2014 video-to-org mapping unconfirmed",
+    "rubric_source": "https://solve.mit.edu/challenges/circular-economy/judging"
+  },
+  {
+    "id": "mit_solve_2023_finalist_4",
+    "title": "MIT Solve \u2014 2023 Horizon Prize Pitch Competition, Finalist 4",
+    "youtube_url": "https://www.youtube.com/watch?v=dZYWoiIkvbc",
+    "competition": "MIT Solve / Horizon Prize 2023 (Concordia Annual Summit)",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "finalist_unmapped",
+    "outcome_detail": "One of five 2023 Horizon Prize finalists \u2014 video-to-org mapping unconfirmed",
+    "rubric_source": "https://solve.mit.edu/challenges/circular-economy/judging"
+  },
+  {
+    "id": "mit_solve_2023_finalist_5",
+    "title": "MIT Solve \u2014 2023 Horizon Prize Pitch Competition, Finalist 5",
+    "youtube_url": "https://www.youtube.com/watch?v=PEncyvopAZU",
+    "competition": "MIT Solve / Horizon Prize 2023 (Concordia Annual Summit)",
+    "category": "scored",
+    "medium": "video",
+    "outcome_tier": "finalist_unmapped",
+    "outcome_detail": "One of five 2023 Horizon Prize finalists \u2014 video-to-org mapping unconfirmed",
+    "rubric_source": "https://solve.mit.edu/challenges/circular-economy/judging"
+  },
+  {
+    "id": "xprize_rainforest_team2",
+    "title": "XPRIZE Rainforest \u2014 Team Pitch Presentation #2",
+    "youtube_url": "https://www.youtube.com/watch?v=cXQfWZiSG_0",
+    "competition": "XPRIZE Rainforest (early team-pitch round, Jan 2021)",
+    "category": "excluded",
+    "medium": "video",
+    "outcome_tier": "competitor",
+    "outcome_detail": "EXCLUDED from aggregation: coding revealed this is not one team's pitch but a 30-min XPRIZE webinar (staff logistics, then three unrelated presenters back-to-back). Coded output kept in data/coded_excluded/ for reference, not read by aggregate.py.",
+    "rubric_source": "https://www.xprize.org/prizes/rainforest/guidelines"
+  },
+  {
+    "id": "mlk_i_have_a_dream_1963",
+    "title": "Martin Luther King Jr. \u2014 \"I Have a Dream\" (August 28, 1963)",
+    "youtube_url": "https://www.youtube.com/watch?v=cqJUO7jTmos",
+    "competition": "n/a \u2014 supplementary rhetorical exemplar, not a judged pitch",
+    "category": "exemplar",
+    "medium": "video",
+    "outcome_tier": null,
+    "outcome_detail": "Exemplar for sustained Pathos+Ethos oratory, not a pitch of any kind",
+    "rubric_source": null
+  },
+  {
+    "id": "jobs_iphone_keynote_2007",
+    "title": "Steve Jobs \u2014 Macworld 2007 Keynote, iPhone Introduction",
+    "youtube_url": "https://www.youtube.com/watch?v=2MlSJLPxGYs",
+    "competition": "n/a \u2014 supplementary rhetorical exemplar, not a judged pitch",
+    "category": "exemplar",
+    "medium": "video",
+    "outcome_tier": null,
+    "outcome_detail": "Product-launch pitch exemplar (Logos+Ethos-led), full ~80 min keynote \u2014 no rubric/judges, so coded for appeal only, not rubric dimensions",
+    "rubric_source": null
+  },
+  {
+    "id": "airbnb_seed_deck_2008",
+    "title": "Airbnb \u2014 original seed pitch deck (2008)",
+    "youtube_url": null,
+    "competition": "n/a \u2014 static slide deck, coded for both appeal and rubric dimension",
+    "category": "exemplar",
+    "medium": "deck",
+    "outcome_tier": null,
+    "outcome_detail": "$600,000 raised from Sequoia Capital and Y Ventures",
+    "rubric_source": null
+  },
+  {
+    "id": "uber_pitch_deck_2008",
+    "title": "Uber (UberCab) \u2014 original pre-seed pitch deck (2008)",
+    "youtube_url": null,
+    "competition": "n/a \u2014 static slide deck, coded for both appeal and rubric dimension",
+    "category": "exemplar",
+    "medium": "deck",
+    "outcome_tier": null,
+    "outcome_detail": "$200,000 pre-seed raised",
+    "rubric_source": null
+  },
+  {
+    "id": "dropbox_seed_deck_2007",
+    "title": "Dropbox \u2014 original seed pitch deck (2007)",
+    "youtube_url": null,
+    "competition": "n/a \u2014 static slide deck, coded for both appeal and rubric dimension",
+    "category": "exemplar",
+    "medium": "deck",
+    "outcome_tier": null,
+    "outcome_detail": "$1.2M seed round led by Sequoia Capital",
+    "rubric_source": null
+  },
+  {
+    "id": "linkedin_series_b_deck_2004",
+    "title": "LinkedIn \u2014 Series B pitch deck to Greylock (2004)",
+    "youtube_url": null,
+    "competition": "n/a \u2014 static slide deck, coded for both appeal and rubric dimension",
+    "category": "exemplar",
+    "medium": "deck",
+    "outcome_tier": null,
+    "outcome_detail": "$10M Series B from Greylock Partners",
+    "rubric_source": null
+  }
+]

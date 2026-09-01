@@ -1,0 +1,140 @@
+pitch_id,competition,outcome_tier,start_seconds,pct_of_pitch,rubric_dim,dominant_appeal,confidence
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,5.75,0.008128357364998586,problem_fit,pathos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,5.75,0.008128357364998586,team,pathos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,51.71,0.07309867119027424,problem_fit,logos,0.75
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,98.03,0.1385778908679672,problem_fit,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,98.03,0.1385778908679672,tech,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,144.86,0.20477806050325137,tech,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,193.47,0.2734944868532655,impact_evidence,logos,0.9
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,193.47,0.2734944868532655,scale_sustainability,logos,0.9
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,240.54,0.34003392705682783,impact_evidence,pathos,0.8
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,240.54,0.34003392705682783,scale_sustainability,pathos,0.8
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,286.37,0.4048204693242861,scale_sustainability,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,286.37,0.4048204693242861,tech,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,333.64,0.4716426350014136,scale_sustainability,logos,0.75
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,333.64,0.4716426350014136,team,logos,0.75
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,378.93,0.535665818490246,scale_sustainability,logos,0.55
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,424.02,0.5994062765055131,tech,logos,0.7
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,424.02,0.5994062765055131,scale_sustainability,logos,0.7
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,469.89,0.6642493638676845,scale_sustainability,logos,0.6
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,469.89,0.6642493638676845,problem_fit,logos,0.6
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,516.95,0.7307746677975686,scale_sustainability,logos,0.6
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,516.95,0.7307746677975686,impact_evidence,logos,0.6
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,562.52,0.7951936669493921,scale_sustainability,logos,0.85
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,609.5,0.8616058806898502,scale_sustainability,ethos,0.55
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,609.5,0.8616058806898502,tech,ethos,0.55
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,609.5,0.8616058806898502,team,ethos,0.55
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,655.34,0.9264065592309868,scale_sustainability,ethos,0.55
+hult_2016_buupass,Hult Prize 2016 Global Finals,winner,655.34,0.9264065592309868,team,ethos,0.55
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,0.08,0.00017937219730941703,team,pathos,0.65
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,56.88,0.12753363228699552,problem_fit,logos,0.55
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,101.91,0.22849775784753362,problem_fit,logos,0.75
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,101.91,0.22849775784753362,tech,logos,0.75
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,147.91,0.33163677130044844,impact_evidence,logos,0.85
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,147.91,0.33163677130044844,scale_sustainability,logos,0.85
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,194.47,0.43603139013452913,impact_evidence,logos,0.5
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,194.47,0.43603139013452913,tech,logos,0.5
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,194.47,0.43603139013452913,scale_sustainability,logos,0.5
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,239.67,0.5373766816143497,team,ethos,0.75
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,239.67,0.5373766816143497,scale_sustainability,ethos,0.75
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,239.67,0.5373766816143497,impact_evidence,ethos,0.75
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,285.59,0.6403363228699551,scale_sustainability,logos,0.45
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,332.63,0.7458071748878924,scale_sustainability,logos,0.55
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,378.95,0.8496636771300449,tech,ethos,0.7
+hult_2025_stickem,Hult Prize 2025 Global Finals,winner,378.95,0.8496636771300449,team,ethos,0.7
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,0.24,0.0004886988393402566,problem_fit,pathos,0.6
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,45.35,0.09234371818366931,problem_fit,logos,0.75
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,45.35,0.09234371818366931,tech,logos,0.75
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,92.16,0.1876603543066585,tech,logos,0.85
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,92.16,0.1876603543066585,impact_evidence,logos,0.85
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,92.16,0.1876603543066585,scale_sustainability,logos,0.85
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,138.71,0.28244756668702914,impact_evidence,logos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,138.71,0.28244756668702914,scale_sustainability,logos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,138.71,0.28244756668702914,team,logos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,187.07,0.3809203828140908,tech,ethos,0.5
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,187.07,0.3809203828140908,impact_evidence,ethos,0.5
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,234.17,0.47682753003461614,tech,logos,0.6
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,234.17,0.47682753003461614,impact_evidence,logos,0.6
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,280.85,0.571879454286296,tech,logos,0.6
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,280.85,0.571879454286296,scale_sustainability,logos,0.6
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,327.65,0.667175727957646,tech,ethos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,372.89,0.7592954591732844,tech,logos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,372.89,0.7592954591732844,scale_sustainability,logos,0.55
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,417.89,0.8509264915495826,tech,logos,0.8
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,417.89,0.8509264915495826,impact_evidence,logos,0.8
+mit_solve_2023_finalist_2,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,465.29,0.9474445123192833,impact_evidence,logos,0.75
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,0.84,0.001099044877665838,problem_fit,pathos,0.8
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,47.81,0.06255397095381396,problem_fit,pathos,0.9
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,93.23,0.12198089755331677,problem_fit,logos,0.7
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,140.03,0.18321339788041346,tech,logos,0.7
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,140.03,0.18321339788041346,problem_fit,logos,0.7
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,188.82,0.24704958785817088,tech,ethos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,234.23,0.3064634305900824,tech,logos,0.8
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,279.47,0.36565484757294264,tech,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,279.47,0.36565484757294264,scale_sustainability,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,279.47,0.36565484757294264,team,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,325.07,0.42531728378908806,team,pathos,0.5
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,370.61,0.484901216799686,scale_sustainability,pathos,0.6
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,418.31,0.5473112652099961,tech,logos,0.4
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,463.31,0.606188669370666,tech,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,510.05,0.6673426664922152,tech,ethos,0.6
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,555.17,0.7263770770639801,tech,logos,0.5
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,555.17,0.7263770770639801,scale_sustainability,logos,0.5
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,603.17,0.789179641502028,scale_sustainability,logos,0.75
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,603.17,0.789179641502028,tech,logos,0.75
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,649.43,0.8497056129791967,scale_sustainability,logos,0.65
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,695.15,0.9095250556064373,tech,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,695.15,0.9095250556064373,impact_evidence,logos,0.55
+mit_solve_2023_finalist_3,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,741.65,0.9703650399057961,tech,logos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,2.4,0.003907521979811136,problem_fit,pathos,0.85
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,49.01,0.07979485509605991,problem_fit,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,96.35,0.15687072614783457,problem_fit,logos,0.75
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,96.35,0.15687072614783457,tech,logos,0.75
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,141.53,0.2304298274177792,tech,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,141.53,0.2304298274177792,impact_evidence,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,141.53,0.2304298274177792,team,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,187.85,0.3058450016281341,team,logos,0.55
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,187.85,0.3058450016281341,scale_sustainability,logos,0.55
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,281.03,0.45755454249430144,tech,logos,0.75
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,281.03,0.45755454249430144,problem_fit,logos,0.75
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,327.29,0.5328720286551611,tech,ethos,0.55
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,327.29,0.5328720286551611,impact_evidence,ethos,0.55
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,374.45,0.6096548355584499,impact_evidence,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,374.45,0.6096548355584499,tech,logos,0.6
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,422.45,0.6878052751546727,tech,logos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,422.45,0.6878052751546727,scale_sustainability,logos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,469.55,0.7644903940084663,tech,logos,0.65
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,469.55,0.7644903940084663,scale_sustainability,logos,0.65
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,516.3,0.8406056659068706,impact_evidence,logos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,516.3,0.8406056659068706,scale_sustainability,logos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,563.27,0.9170791273200911,impact_evidence,pathos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,563.27,0.9170791273200911,tech,pathos,0.7
+mit_solve_2023_finalist_4,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,563.27,0.9170791273200911,problem_fit,pathos,0.7
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,1.08,0.0021015761821366026,problem_fit,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,1.08,0.0021015761821366026,team,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,1.08,0.0021015761821366026,impact_evidence,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,46.37,0.0902315625608095,tech,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,46.37,0.0902315625608095,problem_fit,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,46.37,0.0902315625608095,impact_evidence,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,92.57,0.1801323214633197,scale_sustainability,ethos,0.5
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,92.57,0.1801323214633197,impact_evidence,ethos,0.5
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,137.99,0.268515275345398,scale_sustainability,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,137.99,0.268515275345398,problem_fit,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,137.99,0.268515275345398,team,ethos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,184.55,0.3591165596419537,impact_evidence,pathos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,184.55,0.3591165596419537,scale_sustainability,pathos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,184.55,0.3591165596419537,team,pathos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,232.67,0.4527534539793734,impact_evidence,logos,0.7
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,232.67,0.4527534539793734,problem_fit,logos,0.7
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,277.67,0.5403191282350652,tech,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,277.67,0.5403191282350652,scale_sustainability,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,277.67,0.5403191282350652,impact_evidence,logos,0.55
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,324.65,0.6317376921580073,scale_sustainability,logos,0.45
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,324.65,0.6317376921580073,tech,logos,0.45
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,369.95,0.7198871375754038,tech,pathos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,369.95,0.7198871375754038,impact_evidence,pathos,0.6
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,418.62,0.8145942790426154,impact_evidence,logos,0.5
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,418.62,0.8145942790426154,tech,logos,0.5
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,465.11,0.9050593500681067,impact_evidence,logos,0.65
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,465.11,0.9050593500681067,scale_sustainability,logos,0.65
+mit_solve_2023_finalist_5,MIT Solve / Horizon Prize 2023 (Concordia Annual Summit),finalist_unmapped,465.11,0.9050593500681067,problem_fit,logos,0.65

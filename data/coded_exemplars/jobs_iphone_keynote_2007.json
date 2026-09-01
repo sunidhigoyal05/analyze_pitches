@@ -1,0 +1,716 @@
+[
+  {
+    "start": 7.28,
+    "end": 53.35,
+    "dominant_appeal": "ethos",
+    "intensity": 0.65,
+    "confidence": 0.6
+  },
+  {
+    "start": 53.35,
+    "end": 99.43,
+    "dominant_appeal": "ethos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 99.44,
+    "end": 145.51,
+    "dominant_appeal": "pathos",
+    "intensity": 0.75,
+    "confidence": 0.55
+  },
+  {
+    "start": 145.51,
+    "end": 191.27,
+    "dominant_appeal": "pathos",
+    "intensity": 1.0,
+    "confidence": 0.9
+  },
+  {
+    "start": 191.27,
+    "end": 238.79,
+    "dominant_appeal": "pathos",
+    "intensity": 0.8,
+    "confidence": 0.55
+  },
+  {
+    "start": 238.79,
+    "end": 287.51,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.7
+  },
+  {
+    "start": 287.51,
+    "end": 332.63,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.65
+  },
+  {
+    "start": 332.63,
+    "end": 379.91,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.65
+  },
+  {
+    "start": 379.91,
+    "end": 425.67,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 425.67,
+    "end": 471.92,
+    "dominant_appeal": "pathos",
+    "intensity": 0.75,
+    "confidence": 0.75
+  },
+  {
+    "start": 471.92,
+    "end": 519.35,
+    "dominant_appeal": "pathos",
+    "intensity": 0.65,
+    "confidence": 0.55
+  },
+  {
+    "start": 519.35,
+    "end": 566.55,
+    "dominant_appeal": "ethos",
+    "intensity": 0.6,
+    "confidence": 0.6
+  },
+  {
+    "start": 566.55,
+    "end": 614.63,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.7
+  },
+  {
+    "start": 614.63,
+    "end": 660.71,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.65
+  },
+  {
+    "start": 660.71,
+    "end": 706.39,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 706.39,
+    "end": 751.59,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 751.59,
+    "end": 797.67,
+    "dominant_appeal": "logos",
+    "intensity": 0.3,
+    "confidence": 0.75
+  },
+  {
+    "start": 797.67,
+    "end": 844.23,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.75
+  },
+  {
+    "start": 844.23,
+    "end": 890.47,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 890.47,
+    "end": 935.99,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 935.99,
+    "end": 981.83,
+    "dominant_appeal": "pathos",
+    "intensity": 0.65,
+    "confidence": 0.55
+  },
+  {
+    "start": 981.83,
+    "end": 1028.87,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 1028.87,
+    "end": 1076.15,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 1076.15,
+    "end": 1126.55,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.5
+  },
+  {
+    "start": 1126.56,
+    "end": 1172.0,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.55
+  },
+  {
+    "start": 1172.0,
+    "end": 1218.64,
+    "dominant_appeal": "pathos",
+    "intensity": 0.45,
+    "confidence": 0.4
+  },
+  {
+    "start": 1218.64,
+    "end": 1264.55,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 1264.55,
+    "end": 1310.47,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 1310.47,
+    "end": 1356.15,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 1356.16,
+    "end": 1403.11,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 1403.11,
+    "end": 1449.75,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 1449.75,
+    "end": 1500.55,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.65
+  },
+  {
+    "start": 1500.56,
+    "end": 1550.55,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.55
+  },
+  {
+    "start": 1550.56,
+    "end": 1597.27,
+    "dominant_appeal": "pathos",
+    "intensity": 0.9,
+    "confidence": 0.8
+  },
+  {
+    "start": 1597.27,
+    "end": 1644.15,
+    "dominant_appeal": "pathos",
+    "intensity": 0.75,
+    "confidence": 0.6
+  },
+  {
+    "start": 1644.15,
+    "end": 1690.71,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 1690.71,
+    "end": 1737.11,
+    "dominant_appeal": "logos",
+    "intensity": 0.3,
+    "confidence": 0.6
+  },
+  {
+    "start": 1737.11,
+    "end": 1783.19,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.6
+  },
+  {
+    "start": 1783.19,
+    "end": 1829.67,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 1829.67,
+    "end": 1875.03,
+    "dominant_appeal": "pathos",
+    "intensity": 0.65,
+    "confidence": 0.55
+  },
+  {
+    "start": 1875.03,
+    "end": 1927.51,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.55
+  },
+  {
+    "start": 1927.52,
+    "end": 1974.87,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.55
+  },
+  {
+    "start": 1974.87,
+    "end": 2021.44,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.55
+  },
+  {
+    "start": 2021.44,
+    "end": 2071.11,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 2071.12,
+    "end": 2118.23,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.5
+  },
+  {
+    "start": 2118.23,
+    "end": 2170.31,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.6
+  },
+  {
+    "start": 2170.32,
+    "end": 2216.23,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.6
+  },
+  {
+    "start": 2216.23,
+    "end": 2261.59,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.65
+  },
+  {
+    "start": 2261.59,
+    "end": 2306.71,
+    "dominant_appeal": "ethos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 2306.71,
+    "end": 2352.15,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.55
+  },
+  {
+    "start": 2352.15,
+    "end": 2397.19,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 2397.19,
+    "end": 2445.27,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 2445.28,
+    "end": 2491.03,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.55
+  },
+  {
+    "start": 2491.03,
+    "end": 2537.19,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.5
+  },
+  {
+    "start": 2537.19,
+    "end": 2583.67,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 2583.67,
+    "end": 2630.23,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.5
+  },
+  {
+    "start": 2630.23,
+    "end": 2675.27,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.5
+  },
+  {
+    "start": 2675.27,
+    "end": 2721.52,
+    "dominant_appeal": "pathos",
+    "intensity": 0.65,
+    "confidence": 0.55
+  },
+  {
+    "start": 2721.52,
+    "end": 2768.31,
+    "dominant_appeal": "pathos",
+    "intensity": 0.45,
+    "confidence": 0.45
+  },
+  {
+    "start": 2768.31,
+    "end": 2818.23,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.5
+  },
+  {
+    "start": 2818.24,
+    "end": 2864.07,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 2864.07,
+    "end": 2910.15,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.5
+  },
+  {
+    "start": 2910.15,
+    "end": 2959.11,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.5
+  },
+  {
+    "start": 2959.12,
+    "end": 3006.15,
+    "dominant_appeal": "pathos",
+    "intensity": 0.65,
+    "confidence": 0.5
+  },
+  {
+    "start": 3006.15,
+    "end": 3060.15,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.55
+  },
+  {
+    "start": 3060.16,
+    "end": 3106.63,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 3106.63,
+    "end": 3153.19,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 3153.19,
+    "end": 3199.03,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 3199.03,
+    "end": 3245.99,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 3245.99,
+    "end": 3293.75,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 3293.75,
+    "end": 3339.51,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 3339.51,
+    "end": 3387.99,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.5
+  },
+  {
+    "start": 3387.99,
+    "end": 3433.27,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 3433.27,
+    "end": 3478.8,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 3478.8,
+    "end": 3525.11,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 3525.11,
+    "end": 3570.63,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 3570.63,
+    "end": 3616.63,
+    "dominant_appeal": "pathos",
+    "intensity": 0.45,
+    "confidence": 0.5
+  },
+  {
+    "start": 3616.64,
+    "end": 3661.83,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 3661.83,
+    "end": 3709.91,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.55
+  },
+  {
+    "start": 3709.91,
+    "end": 3755.35,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.6
+  },
+  {
+    "start": 3755.35,
+    "end": 3800.47,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.6
+  },
+  {
+    "start": 3800.47,
+    "end": 3845.67,
+    "dominant_appeal": "logos",
+    "intensity": 0.45,
+    "confidence": 0.65
+  },
+  {
+    "start": 3845.67,
+    "end": 3893.91,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 3893.91,
+    "end": 3941.35,
+    "dominant_appeal": "logos",
+    "intensity": 0.4,
+    "confidence": 0.6
+  },
+  {
+    "start": 3941.35,
+    "end": 3987.67,
+    "dominant_appeal": "logos",
+    "intensity": 0.5,
+    "confidence": 0.65
+  },
+  {
+    "start": 3987.67,
+    "end": 4033.11,
+    "dominant_appeal": "logos",
+    "intensity": 0.7,
+    "confidence": 0.55
+  },
+  {
+    "start": 4033.11,
+    "end": 4078.63,
+    "dominant_appeal": "logos",
+    "intensity": 0.35,
+    "confidence": 0.65
+  },
+  {
+    "start": 4078.63,
+    "end": 4124.71,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 4124.71,
+    "end": 4171.75,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 4171.75,
+    "end": 4219.19,
+    "dominant_appeal": "ethos",
+    "intensity": 0.45,
+    "confidence": 0.55
+  },
+  {
+    "start": 4219.19,
+    "end": 4265.75,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 4265.75,
+    "end": 4310.95,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 4310.95,
+    "end": 4355.99,
+    "dominant_appeal": "pathos",
+    "intensity": 0.55,
+    "confidence": 0.5
+  },
+  {
+    "start": 4355.99,
+    "end": 4401.59,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 4401.59,
+    "end": 4449.27,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.6
+  },
+  {
+    "start": 4449.27,
+    "end": 4495.11,
+    "dominant_appeal": "ethos",
+    "intensity": 0.5,
+    "confidence": 0.55
+  },
+  {
+    "start": 4495.11,
+    "end": 4543.67,
+    "dominant_appeal": "pathos",
+    "intensity": 0.5,
+    "confidence": 0.5
+  },
+  {
+    "start": 4543.67,
+    "end": 4588.95,
+    "dominant_appeal": "pathos",
+    "intensity": 0.6,
+    "confidence": 0.55
+  },
+  {
+    "start": 4588.95,
+    "end": 4634.55,
+    "dominant_appeal": "logos",
+    "intensity": 0.55,
+    "confidence": 0.7
+  },
+  {
+    "start": 4634.55,
+    "end": 4688.07,
+    "dominant_appeal": "logos",
+    "intensity": 0.65,
+    "confidence": 0.7
+  },
+  {
+    "start": 4688.08,
+    "end": 4733.35,
+    "dominant_appeal": "ethos",
+    "intensity": 0.55,
+    "confidence": 0.55
+  },
+  {
+    "start": 4733.35,
+    "end": 4748.28,
+    "dominant_appeal": "pathos",
+    "intensity": 0.7,
+    "confidence": 0.6
+  }
+]

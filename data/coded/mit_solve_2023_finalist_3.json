@@ -1,0 +1,121 @@
+[
+  {
+    "start": 0.84,
+    "end": 47.81,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.8
+  },
+  {
+    "start": 47.81,
+    "end": 93.23,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.9
+  },
+  {
+    "start": 93.23,
+    "end": 140.03,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  },
+  {
+    "start": 140.03,
+    "end": 188.81,
+    "rubric_dims": ["tech", "problem_fit"],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  },
+  {
+    "start": 188.82,
+    "end": 234.23,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "ethos",
+    "confidence": 0.55
+  },
+  {
+    "start": 234.23,
+    "end": 279.47,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.8
+  },
+  {
+    "start": 279.47,
+    "end": 325.07,
+    "rubric_dims": ["tech", "scale_sustainability", "team"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 325.07,
+    "end": 370.61,
+    "rubric_dims": ["team"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.5
+  },
+  {
+    "start": 370.61,
+    "end": 418.31,
+    "rubric_dims": ["scale_sustainability"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.6
+  },
+  {
+    "start": 418.31,
+    "end": 463.31,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.4
+  },
+  {
+    "start": 463.31,
+    "end": 510.05,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 510.05,
+    "end": 555.17,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "ethos",
+    "confidence": 0.6
+  },
+  {
+    "start": 555.17,
+    "end": 603.17,
+    "rubric_dims": ["tech", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.5
+  },
+  {
+    "start": 603.17,
+    "end": 649.43,
+    "rubric_dims": ["scale_sustainability", "tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 649.43,
+    "end": 695.15,
+    "rubric_dims": ["scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.65
+  },
+  {
+    "start": 695.15,
+    "end": 741.65,
+    "rubric_dims": ["tech", "impact_evidence"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 741.65,
+    "end": 764.32,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  }
+]

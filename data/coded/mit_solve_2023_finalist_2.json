@@ -1,0 +1,79 @@
+[
+  {
+    "start": 0.24,
+    "end": 45.35,
+    "rubric_dims": ["problem_fit"],
+    "dominant_appeal": "pathos",
+    "confidence": 0.6
+  },
+  {
+    "start": 45.35,
+    "end": 92.16,
+    "rubric_dims": ["problem_fit", "tech"],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 92.16,
+    "end": 138.71,
+    "rubric_dims": ["tech", "impact_evidence", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.85
+  },
+  {
+    "start": 138.71,
+    "end": 187.07,
+    "rubric_dims": ["impact_evidence", "scale_sustainability", "team"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 187.07,
+    "end": 234.17,
+    "rubric_dims": ["tech", "impact_evidence"],
+    "dominant_appeal": "ethos",
+    "confidence": 0.5
+  },
+  {
+    "start": 234.17,
+    "end": 280.85,
+    "rubric_dims": ["tech", "impact_evidence"],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 280.85,
+    "end": 327.65,
+    "rubric_dims": ["tech", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 327.65,
+    "end": 372.89,
+    "rubric_dims": ["tech"],
+    "dominant_appeal": "ethos",
+    "confidence": 0.55
+  },
+  {
+    "start": 372.89,
+    "end": 417.89,
+    "rubric_dims": ["tech", "scale_sustainability"],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 417.89,
+    "end": 465.29,
+    "rubric_dims": ["tech", "impact_evidence"],
+    "dominant_appeal": "logos",
+    "confidence": 0.8
+  },
+  {
+    "start": 465.29,
+    "end": 491.1,
+    "rubric_dims": ["impact_evidence"],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  }
+]

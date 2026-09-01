@@ -1,0 +1,61 @@
+{
+  "id": "mlk_i_have_a_dream_1963",
+  "title": "Martin Luther King Jr. — \"I Have a Dream\" (August 28, 1963)",
+  "note_on_medium": "Not a pitch — a supplementary rhetorical exemplar included as a control case for sustained Pathos+Ethos oratory almost entirely without Logos (no market data, no mechanism, no business model, just moral urgency and personal/movement credibility).",
+  "appeal_share": {
+    "pathos": 0.55,
+    "logos": 0.05,
+    "ethos": 0.40
+  },
+  "highlights": [
+    {
+      "start": 33.68,
+      "appeal": "ethos",
+      "quote": "a great American in whose symbolic shadow we stand today",
+      "note": "King borrows Lincoln's authority to legitimize the march itself, a classic ethos-by-association move before he has made any substantive claim."
+    },
+    {
+      "start": 134.8,
+      "appeal": "logos",
+      "quote": "In a sense, we've come to our nation's capital to cash a check.",
+      "note": "The promissory-note conceit is the closest thing to a structured argument (promise made, promise broken, debt now owed) in the whole speech, though it is a moral analogy rather than verifiable market evidence."
+    },
+    {
+      "start": 200.519,
+      "appeal": "pathos",
+      "quote": "A check which has come back marked insufficient funds.",
+      "note": "A visceral, concrete image of betrayal that converts abstract injustice into a feeling of being personally cheated."
+    },
+    {
+      "start": 262.68,
+      "appeal": "pathos",
+      "quote": "This is no time to engage in the luxury of cooling off",
+      "note": "Presses the audience to feel the moment's urgency rather than wait, with no data or timeline attached, just moral pressure."
+    },
+    {
+      "start": 348.48,
+      "appeal": "pathos",
+      "quote": "will have a rude awakening if the nation returns to business AS USUAL.",
+      "note": "A warning pitched entirely at emotional and moral stakes, not at any measurable consequence."
+    },
+    {
+      "start": 431.6,
+      "appeal": "ethos",
+      "quote": "We must not allow our creative protests to degenerate into physical violence.",
+      "note": "King stakes the movement's credibility on nonviolent discipline, a direct trust-building claim aimed at skeptical onlookers."
+    },
+    {
+      "start": 682.44,
+      "appeal": "ethos",
+      "quote": "We hold these truths to be self-evident that all men ARE CREATED EQUAL.",
+      "note": "Grounds his claim in the borrowed authority of the Declaration of Independence rather than in any new evidence, asking the nation to be true to its own founding credibility."
+    },
+    {
+      "start": 783.52,
+      "appeal": "pathos",
+      "quote": "TO JOIN HANDS WITH LITTLE WHITE BOYS AND WHITE GIRLS AS SISTERS AND BROTHERS.",
+      "note": "The speech's most iconic image of reconciliation, pure emotional aspiration with no mechanism for how it would come about."
+    }
+  ],
+  "summary": "The speech escalates almost entirely on two registers: pathos (concrete, sensory images of suffering, betrayal, and urgency, building to the cascading 'I have a dream' and 'let freedom ring' refrains) and ethos (King repeatedly stakes the movement's credibility on nonviolent discipline and on fidelity to Lincoln, the Constitution, and the Declaration of Independence). Logos in the rubric sense — market math, mechanism, verifiable evidence — is essentially absent; the closest analogue is the extended promissory-note/bad-check metaphor, which is a moral argument by analogy rather than data a judge could check. As a control case it isolates what pure Pathos+Ethos oratory sounds like, useful contrast for scored pitches, which typically must ground their appeals in a problem, a mechanism, and evidence rather than moral urgency and borrowed authority alone."
+}

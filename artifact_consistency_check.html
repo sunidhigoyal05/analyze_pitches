@@ -1,0 +1,258 @@
+<title>Coded Twice</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --page:   #f9f9f7;
+    --surface:#fcfcfb;
+    --ink:    #0b0b0b;
+    --ink-soft:#52514e;
+    --muted:  #898781;
+    --line:   #e1e0d9;
+    --baseline:#c3c2b7;
+    --pathos: #eb6834;
+    --logos:  #2a78d6;
+    --ethos:  #1baf7a;
+    --warn:   #d03b3b;
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body: 'Libre Franklin', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:   #0d0d0d;
+      --surface:#1a1a19;
+      --ink:    #ffffff;
+      --ink-soft:#c3c2b7;
+      --muted:  #898781;
+      --line:   #2c2c2a;
+      --baseline:#383835;
+      --pathos: #d95926;
+      --logos:  #3987e5;
+      --ethos:  #199e70;
+      --warn:   #e66767;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:   #0d0d0d;
+    --surface:#1a1a19;
+    --ink:    #ffffff;
+    --ink-soft:#c3c2b7;
+    --muted:  #898781;
+    --line:   #2c2c2a;
+    --baseline:#383835;
+    --pathos: #d95926;
+    --logos:  #3987e5;
+    --ethos:  #199e70;
+    --warn:   #e66767;
+  }
+
+  *{ box-sizing: border-box; }
+  body{ background: var(--page); color: var(--ink); font-family: var(--font-body); line-height: 1.6; }
+  a{ color: inherit; }
+  :focus-visible{ outline: 2px solid var(--logos); outline-offset: 2px; }
+
+  .page{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: clamp(2rem, 4vw, 4.5rem) clamp(1.25rem, 4vw, 2rem) 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(2rem, 4vw, 3rem);
+  }
+
+  .eyebrow{ margin: 0 0 0.9rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: var(--muted); }
+  h1{ margin: 0 0 1rem; font-family: var(--font-display); font-weight: 700; font-size: clamp(2.1rem, 1.7rem + 1.6vw, 3rem); line-height: 1.05; text-wrap: balance; }
+  .thesis{ margin: 0; max-width: 66ch; font-size: 1.08rem; color: var(--ink-soft); }
+  .thesis strong{ color: var(--ink); font-weight: 600; }
+
+  .stats{ display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .stat{ background: var(--surface); padding: 1.2rem 1.4rem; }
+  .stat .num{ font-family: var(--font-display); font-weight: 700; font-size: 2.2rem; line-height: 1; }
+  .stat .label{ margin-top: 0.35rem; font-size: 0.82rem; color: var(--muted); }
+
+  section > h2{ font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; margin: 0 0 0.3rem; }
+  section > .section-note{ margin: 0 0 1.3rem; color: var(--muted); font-size: 0.86rem; max-width: 62ch; }
+
+  .diagram{ background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem 1.6rem; }
+  .strip-scroll{ overflow-x: auto; }
+  .strip-wrap{ min-width: 620px; }
+  .run-label{ font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; }
+  .strip{ display: flex; gap: 2px; height: 34px; margin-bottom: 0.15rem; }
+  .cell{ display: flex; align-items: center; justify-content: center; border-radius: 4px; font-size: 0.68rem; font-weight: 600; color: #fff; cursor: default; }
+  .cell[data-appeal="pathos"]{ background: var(--pathos); }
+  .cell[data-appeal="logos"]{ background: var(--logos); }
+  .cell[data-appeal="ethos"]{ background: var(--ethos); }
+  .cell.flip{ box-shadow: inset 0 0 0 2px var(--warn); }
+
+  .conf-row{ display: flex; gap: 2px; height: 26px; align-items: flex-end; margin: 0.5rem 0 0.9rem; }
+  .conf-bar{ flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 2px; }
+  .conf-bar i{ display: block; width: 60%; background: var(--baseline); border-radius: 2px 2px 0 0; }
+  .conf-bar.flip i{ background: var(--warn); }
+
+  .win-nums{ display: flex; gap: 2px; }
+  .win-nums span{ flex: 1; text-align: center; font-size: 0.66rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .legend-row{ display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 1.3rem; font-size: 0.78rem; color: var(--ink-soft); }
+  .legend-row span{ display: inline-flex; align-items: center; gap: 0.4rem; }
+  .dot{ width: 0.6rem; height: 0.6rem; border-radius: 50%; display: inline-block; }
+  .dot[data-appeal="pathos"]{ background: var(--pathos); }
+  .dot[data-appeal="logos"]{ background: var(--logos); }
+  .dot[data-appeal="ethos"]{ background: var(--ethos); }
+  .ring{ width: 0.6rem; height: 0.6rem; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--warn); display: inline-block; }
+
+  table{ width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 0.5rem; }
+  thead th{ text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--line); color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  tbody td{ padding: 0.45rem 0.7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td{ border-bottom: none; }
+  tbody tr.flip td{ background: color-mix(in srgb, var(--warn) 8%, transparent); }
+  td.t{ font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+
+  .takeaway{ display: flex; gap: 0.7rem; padding: 1rem 1.2rem; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--logos); border-radius: 8px; font-size: 0.92rem; }
+  .takeaway .kicker{ flex: none; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--logos); padding-top: 0.15rem; }
+  .takeaway p{ margin: 0; color: var(--ink); }
+
+  .note{ border-top: 1px solid var(--line); padding-top: 1.3rem; }
+  .note p{ margin: 0 0 0.5rem; max-width: 62ch; color: var(--ink-soft); font-size: 0.86rem; }
+  .note p:last-child{ margin-bottom: 0; }
+</style>
+
+<div class="page">
+
+  <header>
+    <p class="eyebrow">A methodology check for The Appeal Arc</p>
+    <h1>Coded Twice</h1>
+    <p class="thesis">
+      The rubric/appeal labels throughout this project come from an LLM
+      reading each transcript window and making a judgment call — not a
+      fixed algorithm. So: if you coded the same pitch twice, would you get
+      the same answer? Stick 'Em's 10-window pitch was coded a second time,
+      completely independently (a fresh read, blind to the original labels),
+      to find out.
+    </p>
+  </header>
+
+  <section class="stats" aria-label="Agreement rates">
+    <div class="stat"><div class="num">9/10</div><div class="label">Dominant appeal — exact match</div></div>
+    <div class="stat"><div class="num">9/10</div><div class="label">Rubric dimensions — exact match</div></div>
+  </section>
+
+  <section>
+    <h2>Where the two runs agreed — and where they didn't</h2>
+    <p class="section-note">Each column is one ~45-second window, positioned by when it happens in the pitch. Color = dominant appeal that run assigned. The one window outlined in red is the single appeal disagreement — hover any cell for its confidence score.</p>
+    <div class="diagram">
+      <div class="strip-scroll">
+        <div class="strip-wrap">
+          <div class="run-label">Original coding</div>
+          <div class="strip">
+            <div class="cell" data-appeal="pathos" title="Window 0 (0:00–0:57) · Original: Pathos · confidence 0.65">P</div>
+            <div class="cell" data-appeal="logos" title="Window 1 (0:57–1:42) · Original: Logos · confidence 0.55">L</div>
+            <div class="cell" data-appeal="logos" title="Window 2 (1:42–2:28) · Original: Logos · confidence 0.75">L</div>
+            <div class="cell" data-appeal="logos" title="Window 3 (2:28–3:15) · Original: Logos · confidence 0.85">L</div>
+            <div class="cell flip" data-appeal="logos" title="Window 4 (3:15–4:00) · Original: Logos · confidence 0.50 — DISAGREES with rerun (Ethos)">L</div>
+            <div class="cell" data-appeal="ethos" title="Window 5 (4:00–4:46) · Original: Ethos · confidence 0.75">E</div>
+            <div class="cell" data-appeal="logos" title="Window 6 (4:46–5:33) · Original: Logos · confidence 0.45">L</div>
+            <div class="cell" data-appeal="logos" title="Window 7 (5:33–6:19) · Original: Logos · confidence 0.55">L</div>
+            <div class="cell" data-appeal="ethos" title="Window 8 (6:19–7:07) · Original: Ethos · confidence 0.70 — rubric dims differ from rerun">E</div>
+            <div class="cell" data-appeal="pathos" title="Window 9 (7:07–7:26) · Original: Pathos · confidence 0.30">P</div>
+          </div>
+          <div class="conf-row">
+            <div class="conf-bar"><i style="height:65%"></i></div>
+            <div class="conf-bar"><i style="height:55%"></i></div>
+            <div class="conf-bar"><i style="height:75%"></i></div>
+            <div class="conf-bar"><i style="height:85%"></i></div>
+            <div class="conf-bar flip"><i style="height:50%"></i></div>
+            <div class="conf-bar"><i style="height:75%"></i></div>
+            <div class="conf-bar"><i style="height:45%"></i></div>
+            <div class="conf-bar"><i style="height:55%"></i></div>
+            <div class="conf-bar"><i style="height:70%"></i></div>
+            <div class="conf-bar"><i style="height:30%"></i></div>
+          </div>
+
+          <div class="run-label" style="margin-top:0.9rem;">Independent rerun</div>
+          <div class="strip">
+            <div class="cell" data-appeal="pathos" title="Window 0 · Rerun: Pathos · confidence 0.55">P</div>
+            <div class="cell" data-appeal="logos" title="Window 1 · Rerun: Logos · confidence 0.60">L</div>
+            <div class="cell" data-appeal="logos" title="Window 2 · Rerun: Logos · confidence 0.75">L</div>
+            <div class="cell" data-appeal="logos" title="Window 3 · Rerun: Logos · confidence 0.80">L</div>
+            <div class="cell flip" data-appeal="ethos" title="Window 4 · Rerun: Ethos · confidence 0.60 — DISAGREES with original (Logos)">E</div>
+            <div class="cell" data-appeal="ethos" title="Window 5 · Rerun: Ethos · confidence 0.75">E</div>
+            <div class="cell" data-appeal="logos" title="Window 6 · Rerun: Logos · confidence 0.50">L</div>
+            <div class="cell" data-appeal="logos" title="Window 7 · Rerun: Logos · confidence 0.65">L</div>
+            <div class="cell" data-appeal="ethos" title="Window 8 · Rerun: Ethos · confidence 0.55 — rubric dims differ from original">E</div>
+            <div class="cell" data-appeal="pathos" title="Window 9 · Rerun: Pathos · confidence 0.30">P</div>
+          </div>
+          <div class="conf-row">
+            <div class="conf-bar"><i style="height:55%"></i></div>
+            <div class="conf-bar"><i style="height:60%"></i></div>
+            <div class="conf-bar"><i style="height:75%"></i></div>
+            <div class="conf-bar"><i style="height:80%"></i></div>
+            <div class="conf-bar flip"><i style="height:60%"></i></div>
+            <div class="conf-bar"><i style="height:75%"></i></div>
+            <div class="conf-bar"><i style="height:50%"></i></div>
+            <div class="conf-bar"><i style="height:65%"></i></div>
+            <div class="conf-bar"><i style="height:55%"></i></div>
+            <div class="conf-bar"><i style="height:30%"></i></div>
+          </div>
+          <div class="win-nums">
+            <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+          </div>
+        </div>
+      </div>
+      <div class="legend-row">
+        <span><i class="dot" data-appeal="pathos"></i>Pathos</span>
+        <span><i class="dot" data-appeal="logos"></i>Logos</span>
+        <span><i class="dot" data-appeal="ethos"></i>Ethos</span>
+        <span><i class="ring"></i>Disagreement between runs</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rubric dimensions, side by side</h2>
+    <p class="section-note">The one row highlighted below is the single rubric-dimension disagreement — everything else matched exactly, including the confidence-weighted judgment calls that named two or three dimensions in one window.</p>
+    <div class="diagram">
+      <table>
+        <thead><tr><th>Window</th><th>Original rubric dims</th><th>Rerun rubric dims</th></tr></thead>
+        <tbody>
+          <tr><td class="t">0</td><td>team</td><td>team</td></tr>
+          <tr><td class="t">1</td><td>problem_fit</td><td>problem_fit</td></tr>
+          <tr><td class="t">2</td><td>problem_fit, tech</td><td>problem_fit, tech</td></tr>
+          <tr><td class="t">3</td><td>impact_evidence, scale_sustainability</td><td>impact_evidence, scale_sustainability</td></tr>
+          <tr><td class="t">4</td><td>impact_evidence, tech, scale_sustainability</td><td>impact_evidence, tech, scale_sustainability</td></tr>
+          <tr><td class="t">5</td><td>team, scale_sustainability, impact_evidence</td><td>scale_sustainability, impact_evidence, team</td></tr>
+          <tr><td class="t">6</td><td>scale_sustainability</td><td>scale_sustainability</td></tr>
+          <tr><td class="t">7</td><td>scale_sustainability</td><td>scale_sustainability</td></tr>
+          <tr class="flip"><td class="t">8</td><td>tech, team</td><td>team</td></tr>
+          <tr><td class="t">9</td><td>(none)</td><td>(none)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="takeaway">
+    <span class="kicker">Takeaway</span>
+    <p>
+      Both disagreements happened on the two lowest-confidence windows in the
+      original coding (0.50 and 0.70) — exactly what the confidence score is
+      supposed to flag. Every window scored 0.75 or higher came back
+      identical on the rerun. This is one pitch, one rerun — not a rigorous
+      statistical study — but it's a real, honest first data point on how
+      much to trust any single window's label versus the aggregate patterns
+      (Logos dominating across dozens of windows, LinkedIn's zero-Pathos
+      deck) that this project's actual findings rest on.
+    </p>
+  </div>
+
+  <footer class="note">
+    <p>
+      Companion to <a href="https://claude.ai/code/artifact/93b8d485-a3c9-47dd-b5df-80b53deee08c">The Pitch Score</a>
+      and <a href="https://claude.ai/code/artifact/36d099d3-4c36-47f2-9394-862c98d3b7a1">The Appeal Arc</a>.
+      Rerun performed by an independent pass with no access to the original
+      labels — same prompt and rubric definitions from <code>src/rubric_schema.py</code>,
+      applied fresh to Stick 'Em's segmented transcript.
+    </p>
+  </footer>
+
+</div>

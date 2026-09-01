@@ -1,0 +1,561 @@
+<title>The Pitch Score</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --page:   #f9f9f7;
+    --surface:#fcfcfb;
+    --ink:    #0b0b0b;
+    --ink-soft:#52514e;
+    --muted:  #898781;
+    --line:   #e1e0d9;
+    --baseline:#c3c2b7;
+    --pathos: #eb6834;
+    --logos:  #2a78d6;
+    --ethos:  #1baf7a;
+    --focus-ring: rgba(42,120,214,0.45);
+
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body: 'Libre Franklin', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:   #0d0d0d;
+      --surface:#1a1a19;
+      --ink:    #ffffff;
+      --ink-soft:#c3c2b7;
+      --muted:  #898781;
+      --line:   #2c2c2a;
+      --baseline:#383835;
+      --pathos: #d95926;
+      --logos:  #3987e5;
+      --ethos:  #199e70;
+      --focus-ring: rgba(57,135,229,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:   #0d0d0d;
+    --surface:#1a1a19;
+    --ink:    #ffffff;
+    --ink-soft:#c3c2b7;
+    --muted:  #898781;
+    --line:   #2c2c2a;
+    --baseline:#383835;
+    --pathos: #d95926;
+    --logos:  #3987e5;
+    --ethos:  #199e70;
+    --focus-ring: rgba(57,135,229,0.5);
+  }
+
+  *{ box-sizing: border-box; }
+  body{
+    background: var(--page);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.6;
+  }
+  html, :root{ scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html, :root{ scroll-behavior: auto; }
+  }
+  a{ color: inherit; }
+  :focus-visible{ outline: 2px solid var(--logos); outline-offset: 3px; }
+
+  .page{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: clamp(2rem, 4vw, 4.5rem) clamp(1.25rem, 4vw, 2rem) 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position: relative;
+    padding-top: 0.5rem;
+  }
+  .hero::before{
+    content: "12";
+    position: absolute;
+    top: -3.2rem;
+    right: -0.5rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(6rem, 18vw, 11rem);
+    line-height: 1;
+    color: var(--logos);
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .eyebrow{
+    position: relative;
+    z-index: 1;
+    margin: 0 0 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1{
+    position: relative;
+    z-index: 1;
+    margin: 0 0 1rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 2rem + 2vw, 3.75rem);
+    line-height: 1.03;
+    text-wrap: balance;
+    max-width: 14ch;
+  }
+  .thesis{
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    max-width: 62ch;
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+  }
+  .thesis strong{ color: var(--ink); font-weight: 600; }
+
+  /* ---------- legend ---------- */
+  .legend{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .legend-item{
+    background: var(--surface);
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    gap: 0.75rem;
+  }
+  .legend-item strong{ font-size: 0.95rem; }
+  .legend-item p{ margin: 0.2rem 0 0; color: var(--ink-soft); font-size: 0.88rem; }
+  .plain{ font-weight: 400; color: var(--muted); font-style: italic; }
+
+  /* ---------- plain-English callout ---------- */
+  .plain-summary{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--logos);
+    border-radius: 10px;
+    padding: 1.4rem 1.6rem;
+  }
+  .plain-summary .kicker{
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--logos);
+    margin: 0 0 0.7rem;
+  }
+  .plain-summary ol{
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .plain-summary li{ color: var(--ink); font-size: 1rem; }
+  .plain-summary li span{ color: var(--ink-soft); font-weight: 400; }
+  .dot{
+    flex: none;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    margin-top: 0.3rem;
+  }
+  .dot[data-appeal="pathos"], .seg[data-appeal="pathos"]{ background: var(--pathos); }
+  .dot[data-appeal="logos"],  .seg[data-appeal="logos"] { background: var(--logos); }
+  .dot[data-appeal="ethos"],  .seg[data-appeal="ethos"] { background: var(--ethos); }
+
+  /* ---------- timeline ---------- */
+  .timeline-wrap h2{
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0 0 0.3rem;
+  }
+  .section-note{
+    margin: 0 0 1.5rem;
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  .timeline-scroll{
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+  }
+  .timeline{ min-width: 760px; }
+  .ruler{
+    position: relative;
+    height: 1.4rem;
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid var(--baseline);
+  }
+  .ruler span{
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+  .ruler span:first-child{ transform: translateX(0); }
+  .ruler span:last-child{ transform: translateX(-100%); }
+
+  .phases{
+    display: flex;
+    gap: 6px;
+  }
+  .phase{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.85rem 0.85rem 0.75rem;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .phase:hover, .phase:focus-visible{
+    border-color: var(--logos);
+    transform: translateY(-2px);
+  }
+  .phase-head{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin-bottom: 0.6rem;
+  }
+  .phase-name{ font-weight: 600; font-size: 0.85rem; }
+  .phase-time{
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .phase-bar{
+    display: flex;
+    height: 22px;
+    border-radius: 4px;
+    overflow: hidden;
+    gap: 2px;
+    background: var(--line);
+  }
+  .seg{ display: block; }
+  .phase-mix{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem 0.65rem;
+    margin-top: 0.55rem;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .phase-mix span{ display: inline-flex; align-items: center; gap: 0.35rem; }
+  .phase-mix .dot{ margin-top: 0; }
+
+  /* ---------- cards ---------- */
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+  .card{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem;
+    scroll-margin-top: 1.5rem;
+    transition: box-shadow 0.2s ease;
+  }
+  .card:target{ box-shadow: 0 0 0 2px var(--focus-ring); }
+  .card-time{
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 0.3rem;
+  }
+  .card h3{
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0 0 0.55rem;
+  }
+  .card-mix{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.9rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+  .card-mix span{ display: inline-flex; align-items: center; gap: 0.4rem; }
+  .card p.body{
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.94rem;
+  }
+
+  /* ---------- footer ---------- */
+  .note{
+    border-top: 1px solid var(--line);
+    padding-top: 1.5rem;
+  }
+  .note p{
+    margin: 0;
+    max-width: 62ch;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+</style>
+
+<div class="page">
+
+  <header class="hero">
+    <p class="eyebrow">Rhetoric hidden inside a judging rubric</p>
+    <h1>The Pitch Score</h1>
+    <p class="thesis">
+      Five criteria grade a startup in twelve minutes — Problem &amp; Fit, Tech,
+      Evidence of Impact, Scale &amp; Sustainability, Team. They read like a
+      scoring checklist. They're also a script for the three oldest tools of
+      persuasion: <strong>Pathos</strong>, <strong>Logos</strong>, and
+      <strong>Ethos</strong>. Here's where each one hides, and why moving it
+      out of place is what makes a technically correct pitch fall flat.
+    </p>
+  </header>
+
+  <section class="plain-summary" aria-label="Plain-English summary">
+    <p class="kicker">In plain English</p>
+    <ol>
+      <li>Open with a <strong>story</strong>, not a slide — <span>but only for the first couple of minutes.</span></li>
+      <li>For almost everything in the middle, judges want <strong>proof</strong>, not feeling — <span>numbers, mechanisms, evidence they could check themselves.</span></li>
+      <li>Save "why you can be <strong>trusted</strong>" for the end — <span>that's when it does the most work, once everything else has been said.</span></li>
+    </ol>
+  </section>
+
+  <section class="legend" aria-label="The three rhetorical appeals">
+    <div class="legend-item">
+      <span class="dot" data-appeal="pathos"></span>
+      <div><strong>Pathos <span class="plain">— the Heart</span></strong><p>The stakes — who the problem hurts, and why a stranger in the room should care.</p></div>
+    </div>
+    <div class="legend-item">
+      <span class="dot" data-appeal="logos"></span>
+      <div><strong>Logos <span class="plain">— the Head</span></strong><p>The logic — mechanism, market math, evidence a judge could go verify.</p></div>
+    </div>
+    <div class="legend-item">
+      <span class="dot" data-appeal="ethos"></span>
+      <div><strong>Ethos <span class="plain">— the Trust</span></strong><p>The credibility — why this team, with this evidence, can be trusted to execute.</p></div>
+    </div>
+  </section>
+
+  <section class="timeline-wrap">
+    <h2>The arc of twelve minutes</h2>
+    <p class="section-note">Modeled proportions, not measured ones — the hypothesis this project tests next against transcripts of real judged pitches.</p>
+
+    <div class="timeline-scroll">
+      <div class="timeline">
+        <div class="ruler">
+          <span style="left:0%">0:00</span>
+          <span style="left:16.67%">2:00</span>
+          <span style="left:33.33%">4:00</span>
+          <span style="left:50%">6:00</span>
+          <span style="left:66.67%">8:00</span>
+          <span style="left:83.33%">10:00</span>
+          <span style="left:100%">12:00</span>
+        </div>
+
+        <div class="phases">
+          <a class="phase" style="flex-grow:2.5" href="#phase-problem">
+            <div class="phase-head">
+              <span class="phase-name">Problem &amp; Fit</span>
+              <span class="phase-time">0:00–2:30</span>
+            </div>
+            <div class="phase-bar">
+              <span class="seg" data-appeal="pathos" style="flex-grow:55" title="Pathos 55%"></span>
+              <span class="seg" data-appeal="logos" style="flex-grow:35" title="Logos 35%"></span>
+              <span class="seg" data-appeal="ethos" style="flex-grow:10" title="Ethos 10%"></span>
+            </div>
+            <div class="phase-mix">
+              <span><i class="dot" data-appeal="pathos"></i>55%</span>
+              <span><i class="dot" data-appeal="logos"></i>35%</span>
+              <span><i class="dot" data-appeal="ethos"></i>10%</span>
+            </div>
+          </a>
+
+          <a class="phase" style="flex-grow:3" href="#phase-tech">
+            <div class="phase-head">
+              <span class="phase-name">Tech</span>
+              <span class="phase-time">2:30–5:30</span>
+            </div>
+            <div class="phase-bar">
+              <span class="seg" data-appeal="logos" style="flex-grow:75" title="Logos 75%"></span>
+              <span class="seg" data-appeal="ethos" style="flex-grow:15" title="Ethos 15%"></span>
+              <span class="seg" data-appeal="pathos" style="flex-grow:10" title="Pathos 10%"></span>
+            </div>
+            <div class="phase-mix">
+              <span><i class="dot" data-appeal="logos"></i>75%</span>
+              <span><i class="dot" data-appeal="ethos"></i>15%</span>
+              <span><i class="dot" data-appeal="pathos"></i>10%</span>
+            </div>
+          </a>
+
+          <a class="phase" style="flex-grow:2" href="#phase-impact">
+            <div class="phase-head">
+              <span class="phase-name">Evidence of Impact</span>
+              <span class="phase-time">5:30–7:30</span>
+            </div>
+            <div class="phase-bar">
+              <span class="seg" data-appeal="logos" style="flex-grow:50" title="Logos 50%"></span>
+              <span class="seg" data-appeal="pathos" style="flex-grow:40" title="Pathos 40%"></span>
+              <span class="seg" data-appeal="ethos" style="flex-grow:10" title="Ethos 10%"></span>
+            </div>
+            <div class="phase-mix">
+              <span><i class="dot" data-appeal="logos"></i>50%</span>
+              <span><i class="dot" data-appeal="pathos"></i>40%</span>
+              <span><i class="dot" data-appeal="ethos"></i>10%</span>
+            </div>
+          </a>
+
+          <a class="phase" style="flex-grow:2" href="#phase-scale">
+            <div class="phase-head">
+              <span class="phase-name">Scale &amp; Sustainability</span>
+              <span class="phase-time">7:30–9:30</span>
+            </div>
+            <div class="phase-bar">
+              <span class="seg" data-appeal="logos" style="flex-grow:55" title="Logos 55%"></span>
+              <span class="seg" data-appeal="ethos" style="flex-grow:35" title="Ethos 35%"></span>
+              <span class="seg" data-appeal="pathos" style="flex-grow:10" title="Pathos 10%"></span>
+            </div>
+            <div class="phase-mix">
+              <span><i class="dot" data-appeal="logos"></i>55%</span>
+              <span><i class="dot" data-appeal="ethos"></i>35%</span>
+              <span><i class="dot" data-appeal="pathos"></i>10%</span>
+            </div>
+          </a>
+
+          <a class="phase" style="flex-grow:2.5" href="#phase-team">
+            <div class="phase-head">
+              <span class="phase-name">Team</span>
+              <span class="phase-time">9:30–12:00</span>
+            </div>
+            <div class="phase-bar">
+              <span class="seg" data-appeal="ethos" style="flex-grow:60" title="Ethos 60%"></span>
+              <span class="seg" data-appeal="pathos" style="flex-grow:25" title="Pathos 25%"></span>
+              <span class="seg" data-appeal="logos" style="flex-grow:15" title="Logos 15%"></span>
+            </div>
+            <div class="phase-mix">
+              <span><i class="dot" data-appeal="ethos"></i>60%</span>
+              <span><i class="dot" data-appeal="pathos"></i>25%</span>
+              <span><i class="dot" data-appeal="logos"></i>15%</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cards" aria-label="Rubric dimensions, in detail">
+
+    <article class="card" id="phase-problem">
+      <p class="card-time">0:00–2:30 · Problem &amp; Product-Market Fit</p>
+      <h3>Earn the emotional hook before you earn the market slide</h3>
+      <div class="card-mix">
+        <span><i class="dot" data-appeal="pathos"></i>Pathos-led</span>
+        <span><i class="dot" data-appeal="logos"></i>+ Logos</span>
+      </div>
+      <p class="body">
+        Judges score this as "is there a real problem, and is there evidence
+        someone already wants it solved." Rhetorically it's the one stretch
+        where leading with Pathos is correct: a specific person, a specific
+        moment, a number that makes the scale of the pain undeniable. Wait
+        past the two-minute mark to introduce market-sizing logic and the
+        hook is gone before it had a chance to matter.
+      </p>
+    </article>
+
+    <article class="card" id="phase-tech">
+      <p class="card-time">2:30–5:30 · Tech</p>
+      <h3>Emotional framing here reads as compensating</h3>
+      <div class="card-mix">
+        <span><i class="dot" data-appeal="logos"></i>Logos-led</span>
+      </div>
+      <p class="body">
+        This is the rubric's most Logos-heavy stretch — mechanism,
+        defensibility, why the approach works and why it's hard to copy.
+        Pathos mostly disappears here on purpose: a judge scoring "tech" is
+        checking whether the how holds up, and a sudden emotional beat in
+        the middle of a technical explanation reads as a shaky answer in
+        disguise.
+      </p>
+    </article>
+
+    <article class="card" id="phase-impact">
+      <p class="card-time">5:30–7:30 · Evidence of Impact</p>
+      <h3>Data and story have to share the stage</h3>
+      <div class="card-mix">
+        <span><i class="dot" data-appeal="logos"></i>Logos</span>
+        <span><i class="dot" data-appeal="pathos"></i>+ Pathos</span>
+      </div>
+      <p class="body">
+        "Evidence of impact" is really asking for two things a judge weighs
+        together: a dataset proving the intervention works, and a story of
+        one person or community it worked for. Data alone reads like an
+        academic abstract. Story alone reads like an anecdote. This is the
+        one rubric line built to reward holding both at once.
+      </p>
+    </article>
+
+    <article class="card" id="phase-scale">
+      <p class="card-time">7:30–9:30 · Scale &amp; Sustainability</p>
+      <h3>The plan for scale is itself a credibility signal</h3>
+      <div class="card-mix">
+        <span><i class="dot" data-appeal="logos"></i>Logos</span>
+        <span><i class="dot" data-appeal="ethos"></i>+ rising Ethos</span>
+      </div>
+      <p class="body">
+        By now a judge already believes the problem is real and the
+        solution works; what's being scored is whether the model survives
+        contact with the real world — unit economics, distribution, what
+        breaks at 10x. Logos still leads, but Ethos starts entering: having
+        a credible plan for scale signals credibility on its own, separate
+        from whatever the plan's numbers say.
+      </p>
+    </article>
+
+    <article class="card" id="phase-team">
+      <p class="card-time">9:30–12:00 · Team Composition</p>
+      <h3>Everything said before is now on trial</h3>
+      <div class="card-mix">
+        <span><i class="dot" data-appeal="ethos"></i>Ethos-led</span>
+      </div>
+      <p class="body">
+        Team is the rubric's Ethos slot, almost undiluted — why these
+        specific people, with this specific history, are the ones who
+        execute. It closes the pitch because credibility is cumulative:
+        everything said in the previous nine minutes is what a judge is now
+        deciding whether to believe, and "who is telling me this" is the
+        last variable left to weigh.
+      </p>
+    </article>
+
+  </section>
+
+  <footer class="note">
+    <p>
+      This page is the model, not the measurement — a hypothesis for where
+      each appeal <em>should</em> sit. It's since been tested against real
+      judged pitches, MLK, Steve Jobs, and Airbnb's original seed deck: see
+      <a href="https://claude.ai/code/artifact/36d099d3-4c36-47f2-9394-862c98d3b7a1">The Appeal Arc</a>
+      for where this arc held up, and the one place real pitches broke the
+      pattern entirely (they open on data, not on feeling).
+    </p>
+  </footer>
+
+</div>

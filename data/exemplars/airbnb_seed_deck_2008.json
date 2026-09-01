@@ -1,0 +1,33 @@
+{
+  "id": "airbnb_seed_deck_2008",
+  "title": "Airbnb (then AirBed & Breakfast) — original seed pitch deck, 2008",
+  "medium": "static slide deck — NOT a recorded/spoken pitch",
+  "note_on_medium": "No recording of the actual investor-room delivery exists. Unlike every other entry in this project, there is no transcript or timing data here — this is a structural/textual analysis of the slides themselves, included because the deck's hook strategy (validate market size before the concept can be doubted) is a genuinely different rhetorical move than the Pathos-first opening the video corpus shows, and worth holding up as a contrast case.",
+  "sources": [
+    "https://www.slideshare.net/PitchDeckExamples/original-airbnb-pitch-deck-2008",
+    "https://slidebean.com/blog/airbnb-pitch-deck",
+    "https://upmetrics.co/newsletter/i-reviewed-airbnbs-original-pitch-deck"
+  ],
+  "verified_facts": {
+    "year": 2008,
+    "founders": ["Brian Chesky", "Joe Gebbia", "Nathan Blecharczyk"],
+    "raised": "$600,000 from Sequoia Capital and Y Ventures",
+    "context": "Used to pitch angel investors after launching at SXSW 2007 and the 2008 Democratic National Convention, before entering Y Combinator's Winter 2009 batch",
+    "cover_tagline": "Book rooms with locals, rather than hotels.",
+    "slide_count_note": "Sources disagree on exact count (10, 11, or 14 depending on how title/appendix slides are counted) — this analysis follows the commonly-cited ~11-slide structure: cover, problem, solution, market validation, market size, product, business model, adoption strategy, competition, competitive advantages, team."
+  },
+  "slides": [
+    { "slide": "Cover", "rubric_dims": [], "dominant_appeal": "pathos", "note": "\"Book rooms with locals, rather than hotels\" — a one-line reframe, not a market claim yet. Pathos in the loosest sense: it's designed to be memorable and slightly provocative, priming curiosity rather than pain (unlike the video corpus's opening problem-hook)." },
+    { "slide": "Problem", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Framed as a booking/pricing inefficiency, not a human story — logical framing from the first substantive slide." },
+    { "slide": "Solution", "rubric_dims": ["problem_fit", "tech"], "dominant_appeal": "logos", "note": "Mechanism-first: how the marketplace connects supply and demand." },
+    { "slide": "Market validation", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "This is the deck's real hook, per the user's own read: proof people already want it (SXSW and DNC traction) placed early, before investors can dismiss the concept as too weird — the opposite sequencing from a Pathos-led opening." },
+    { "slide": "Market size", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "TAM-style sizing — pure Logos, no emotional framing." },
+    { "slide": "Product", "rubric_dims": ["tech"], "dominant_appeal": "logos", "note": "Product screenshots / booking flow." },
+    { "slide": "Business model", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Take-rate / revenue mechanics." },
+    { "slide": "Adoption strategy", "rubric_dims": ["scale_sustainability"], "dominant_appeal": "logos", "note": "Go-to-market plan, still numbers-first." },
+    { "slide": "Competition", "rubric_dims": ["problem_fit"], "dominant_appeal": "logos", "note": "Positioning against Craigslist/Couchsurfing/hotels." },
+    { "slide": "Competitive advantages", "rubric_dims": ["tech", "team"], "dominant_appeal": "ethos", "note": "First appearance of an Ethos-flavored claim — why this team's approach is defensible." },
+    { "slide": "Team", "rubric_dims": ["team"], "dominant_appeal": "ethos", "note": "Closes on founder credibility, same rubric slot and same appeal as the Team phase in the video corpus — this is the one place the two pitch styles converge." }
+  ],
+  "summary": "Where the scored video corpus opens on Pathos and saves Logos for the middle, Airbnb's deck is Logos-led almost start to finish — it substitutes 'proof people already want this' for an emotional hook, because a two-sided marketplace pitched to seed investors has to defeat skepticism about the concept itself before anything else can land. Ethos is compressed into the final two slides, same position as the video corpus's Team phase, suggesting that closing-on-credibility may hold across pitch formats even when everything before it differs."
+}

@@ -1,0 +1,61 @@
+{
+  "id": "jobs_iphone_keynote_2007",
+  "title": "Steve Jobs — Macworld 2007 Keynote, iPhone Introduction",
+  "role": "control case / non-pitch rhetorical exemplar (Logos+Ethos-led PRODUCT pitch)",
+  "appeal_share": {
+    "pathos": 0.20,
+    "logos": 0.50,
+    "ethos": 0.30
+  },
+  "highlights": [
+    {
+      "start": 182.8,
+      "appeal": "logos",
+      "quote": "and we are calling it iPhone.",
+      "note": "The naming reveal collapses three separate product categories (widescreen iPod, phone, internet communicator) into one falsifiable product claim, rather than an emotional appeal."
+    },
+    {
+      "start": 439.36,
+      "appeal": "logos",
+      "quote": "multi-touch, which is phenomenal. It works like magic.",
+      "note": "A mechanism claim for the enabling technology behind the touch interface, immediately followed by a live demo that lets the audience verify it themselves."
+    },
+    {
+      "start": 608.959,
+      "appeal": "ethos",
+      "quote": "really serious about software should make their own hardware.",
+      "note": "Borrows the authority of industry pioneer Alan Kay to justify Apple's integrated hardware-and-software strategy — credibility by association."
+    },
+    {
+      "start": 709.839,
+      "appeal": "pathos",
+      "quote": "something wonderful for your hand. Just wonderful.",
+      "note": "A pure sensory/aesthetic appeal to physical delight in the object, with no functional or evidentiary content."
+    },
+    {
+      "start": 1349.76,
+      "appeal": "pathos",
+      "quote": "You had me at scrolling.",
+      "note": "A third party's spontaneous emotional reaction, quoted back to the audience as social proof of delight rather than as a technical claim."
+    },
+    {
+      "start": 1562.559,
+      "appeal": "pathos",
+      "quote": "how thrilled I am to make the first public phone call with iPhone.",
+      "note": "Genuine, unscripted human emotion during a live, high-stakes demo — the risk of the moment itself generates the pathos."
+    },
+    {
+      "start": 4588.95,
+      "appeal": "logos",
+      "quote": "1% market share equals 10 million units.",
+      "note": "Textbook market-math logos: a quantifiable, independently checkable claim about market opportunity, exactly the kind of arithmetic a skeptical listener could verify."
+    },
+    {
+      "start": 4688.08,
+      "appeal": "ethos",
+      "quote": "I skate to where the puck is going to be, not where it has been.",
+      "note": "A closing borrowed-authority quote (Wayne Gretzky) that recasts Apple's history as visionary foresight, sealing the credibility argument on the way out."
+    }
+  ],
+  "summary": "This keynote is a logos-and-ethos-led product pitch: most of Jobs's persuasive effort goes into demonstrating mechanism live on stage, drawing feature-by-feature comparisons against existing smartphones, and laying out quantifiable market logic (unit pricing, '1% share = 10 million units'), while ethos is built through Apple's track record (1984 Mac, 2001 iPod), borrowed-authority quotes (Alan Kay, Wayne Gretzky), a stated 200+ patents, and on-stage validation from Google, Yahoo, and Cingular/AT&T executives. Pathos is present but clearly subordinate, and mostly aesthetic or delight-oriented (wonder at the object, a colleague's genuine emotion on the first live call) rather than stakes-based or other-directed. As a control case it shows what these three appeals sound like when there is no 'evidence of impact' or 'scale & sustainability' dimension to satisfy at all: the only 'evidence' needed is that the demo works in front of a live audience, and the only 'sustainability' question is unit economics and carrier distribution — not whether a social outcome persists for the people it is meant to help."
+}

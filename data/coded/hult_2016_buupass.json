@@ -1,0 +1,156 @@
+[
+  {
+    "start": 5.75,
+    "end": 51.71,
+    "rubric_dims": [
+      "problem_fit",
+      "team"
+    ],
+    "dominant_appeal": "pathos",
+    "confidence": 0.85
+  },
+  {
+    "start": 51.71,
+    "end": 98.03,
+    "rubric_dims": [
+      "problem_fit"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 98.03,
+    "end": 144.86,
+    "rubric_dims": [
+      "problem_fit",
+      "tech"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.85
+  },
+  {
+    "start": 144.86,
+    "end": 193.47,
+    "rubric_dims": [
+      "tech"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.85
+  },
+  {
+    "start": 193.47,
+    "end": 240.54,
+    "rubric_dims": [
+      "impact_evidence",
+      "scale_sustainability"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.9
+  },
+  {
+    "start": 240.54,
+    "end": 286.37,
+    "rubric_dims": [
+      "impact_evidence",
+      "scale_sustainability"
+    ],
+    "dominant_appeal": "pathos",
+    "confidence": 0.8
+  },
+  {
+    "start": 286.37,
+    "end": 333.64,
+    "rubric_dims": [
+      "scale_sustainability",
+      "tech"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.85
+  },
+  {
+    "start": 333.64,
+    "end": 378.92,
+    "rubric_dims": [
+      "scale_sustainability",
+      "team"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.75
+  },
+  {
+    "start": 378.93,
+    "end": 424.02,
+    "rubric_dims": [
+      "scale_sustainability"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.55
+  },
+  {
+    "start": 424.02,
+    "end": 469.89,
+    "rubric_dims": [
+      "tech",
+      "scale_sustainability"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.7
+  },
+  {
+    "start": 469.89,
+    "end": 516.95,
+    "rubric_dims": [
+      "scale_sustainability",
+      "problem_fit"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 516.95,
+    "end": 562.52,
+    "rubric_dims": [
+      "scale_sustainability",
+      "impact_evidence"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.6
+  },
+  {
+    "start": 562.52,
+    "end": 609.5,
+    "rubric_dims": [
+      "scale_sustainability"
+    ],
+    "dominant_appeal": "logos",
+    "confidence": 0.85
+  },
+  {
+    "start": 609.5,
+    "end": 655.34,
+    "rubric_dims": [
+      "scale_sustainability",
+      "tech",
+      "team"
+    ],
+    "dominant_appeal": "ethos",
+    "confidence": 0.55
+  },
+  {
+    "start": 655.34,
+    "end": 703.46,
+    "rubric_dims": [
+      "scale_sustainability",
+      "team"
+    ],
+    "dominant_appeal": "ethos",
+    "confidence": 0.55
+  },
+  {
+    "start": 703.46,
+    "end": 707.36,
+    "rubric_dims": [],
+    "dominant_appeal": "pathos",
+    "confidence": 0.3
+  }
+]
